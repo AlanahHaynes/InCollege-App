@@ -866,7 +866,7 @@ class InCollegeAccts:
       print(
           "All permitted accounts have been created, please come back later.")
       return
-    # Must be unique account
+    # Must be a unique account
     if username in self.accts:
       print("Username already exists. Please choose a different username.")
       return
