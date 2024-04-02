@@ -831,7 +831,7 @@ class InCollegeAccts:
     except FileNotFoundError:
       print("No saved jobs found!")
 
-  #load jobs from jobs_saved.txt
+  #load the jobs from jobs_saved.txt
   def loadJobsSaved(self):
     try:
       with open("job_saved.txt", "r") as file:
