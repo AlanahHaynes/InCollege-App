@@ -777,7 +777,7 @@ class InCollegeAccts:
             f"{job.title}:{job.description}:{job.employer}:{job.location}:{job.salary}:{job.poster}\n"
         )
 
-  #Epic 6- Function to save job applications to text file
+  #Epic 6- Function to save job applications to a text file
   def saveJobApplications(self):
     with open("job_applications.txt", "w") as file:
       for job in self.applications:
