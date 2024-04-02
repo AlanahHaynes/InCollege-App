@@ -861,7 +861,6 @@ class InCollegeAccts:
       print("The jobs.txt file does not exist. No jobs loaded.")
 
   # Function to make a new account
-  # Function to make a new account
   def createAcct(self, username, password, first_name, last_name):
     if len(self.accts) >= self.MAX_ACCOUNTS:
       print(
