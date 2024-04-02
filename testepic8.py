@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from epic7 import UserAccount, InCollegeAccts
+from epic8 import UserAccount, InCollegeAccts
 
 class TestReminderMessage(unittest.TestCase):
 
