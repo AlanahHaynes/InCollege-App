@@ -786,7 +786,7 @@ class InCollegeAccts:
         )
     print("Job applications saved successfully!")
 
-  #Load job application
+  #Load job applications
   def loadJobApplications(self):
     try:
       with open("job_applications.txt", "r") as file:
